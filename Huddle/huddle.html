@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Huddle</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            background-image: url(img.svg);
+            width: 100%;
+            height: 600px;
+            box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        }
+        header {
+            display: flex;
+            justify-content:space-between;
+            margin: 2.5%, 5%;
+            padding: 30px;
+        }
+        .contents{
+            display: flex;
+            justify-content:space-between;
+            padding: 1px 3px;
+            margin: 10px 10px;
+            align-items: center;
+        }
+        .contents p {
+            margin: 4% 0% ;
+            padding: 0px 2px;
+        }
+        .contents h1{
+            margin: 2% 0%;
+            padding: 5px 6px;
+        }
+
+        .button{
+            background-color: #dbd5d5; 
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            color: black;
+            border: none;
+            padding:10px 50px;
+            text-align: center;
+            border-radius: 15px;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+        }
+        article{
+            margin-top: 15%;
+        }
+        .container2{
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        .button2{
+            background-color: #e509b9; 
+            color: rgb(255, 255, 255);
+            border: none;
+            padding:10px 50px;
+
+            text-align: center;
+            border-radius: 15px;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+        }
+        .div-item{
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            border-radius: 20px;
+            display: flex;
+            justify-content: space-between;
+            padding: 40px;
+            margin: 4% 3% ;
+        }
+        .container2{
+            padding: 30px;
+        }
+        .div-item p,h1{
+            margin: 3% 4% ;
+        }
+        .container3{
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        padding: 40px;
+        justify-content: center;
+        align-items: center;
+        width: 40%; 
+        margin: 0 auto; 
+        position: relative;
+        top: 80px; 
+        background-color: #fff; 
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        }
+
+        footer{
+            display: flex;
+            flex-direction: column;
+            background-color: rgb(1, 38, 40);
+            color: #ffffff;
+            width: 100%;
+            padding: 60px 100px; 
+        }
+        .div-icon{
+        display: flex;
+        gap: 15px;
+        margin-bottom: 20px;
+        }
+        .container4{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 3%; 
+        }
+        .container3 h1{
+             display: flex;
+             justify-content: center; 
+             align-items: center; 
+        }
+        .copy{
+            display: flex;
+            justify-content:end;
+        }
+        .div-social{
+            display: flex;
+            gap: 15px;
+        }
+        .nav{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            color: #ffffff;
+        }
+        .nav a{
+            text-decoration: none;
+        }
+        .nav a:visited{
+            color: #ffffff;
+        }
+        .nav a:link{
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+ 
+     <div class="container">
+            <header>
+                <img class="logo" src="logo.svg" alt="logo">
+                <button type="button" class="button">Try it free</button>
+            </header>
+            <br>
+            
+            <div class="contents">
+                    <div class="article-one">
+                    <h1>Build The Community <br>
+                        Your Fans Will Love
+                    </h1>
+
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                        Maxime nesciunt quas deserunt nostrum unde?<br>
+                        Est. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Aliquid beatae officiis at. Perferendis, nam dolor.
+                    </p>
+                    <button class="button2" type="button">Get Started For Free</button>
+                </div>
+                <img src="illustration-mockups.svg" width="600" alt="image">
+            </div>
+    </div>
+
+    <article>
+            <div class="div-item">
+                <div>
+                    <h1>Grow Together</h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br>
+                        Ea assumenda aperiam esse delectus dolorem, id vel officiis vitae nam! Distinctio obcaecati neque reiciendis
+                        <br> unde quidem esse laudantium beatae amet earum!</p>
+                </div>
+            <img src="img2.svg" width="300" alt="image">
+            </div>
+
+            <div class="div-item">
+                <img src="img3.svg" width="300" alt="image">
+                <div>
+                    <h1>Flowing Conversations</h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br>
+                        Ea assumenda aperiam esse delectus dolorem, id vel officiis vitae nam! Distinctio obcaecati neque reiciendis
+                        <br> unde quidem esse laudantium beatae amet earum!
+                    </p>
+                </div> 
+            </div>
+
+            <div class="div-item">
+                <div>
+                    <h1>Your Users</h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br>
+                        Ea assumenda aperiam esse delectus dolorem, id vel officiis vitae nam! Distinctio obcaecati neque reiciendis
+                        <br> unde quidem esse laudantium beatae amet earum!
+                    </p>
+                </div>
+                <img src="img4.svg" width="300" alt="image">
+            </div>
+    </article>
+    
+    <div class="container3">
+        <h1>Ready To Build Your Community?</h1>
+        <br>
+        <button class="button2">Get Started For Free</button>
+    </div>
+
+        
+    <footer>
+            <img src="Untitled.svg" alt="image" width="15%">
+            <div class="container4">
+                <div> 
+                    <div class="div-icon">
+                        <i class="fa-solid fa-location-dot" style="color: #f7f7f7;"></i>
+                        <p> Lorem ipsum dolor sit. <br>
+                           Lorem ipsum dolor sit. <br>
+                          Lorem ipsum dolor sit.
+                        </p>
+                    </div>
+
+                    <div class="div-icon"> 
+                        <i class="fa-solid fa-phone" style="color: #f5f5f5;"></i> 
+                        <p>533 *** **</p>
+                    </div>
+
+                    <div class="div-icon">
+                        <i class="fa-solid fa-envelope" style="color: #f2f2f3;"></i>
+                        <p>aleynatombas04@gmail.com</p>   
+                    </div>
+                </div>
+
+                <div class="nav">
+                    <a href="#">About Us</a>
+                    <a href="#">What We Do</a>
+                    <a href="#">FAQ</a>
+                </div>
+                <div class="nav">
+                    <a href="#">Career</a>
+                    <a href="#">Blog</a>
+                    <a href="#">Contact Us</a>
+                </div>
+
+                <div class="div-social">
+                    <i class="fa-brands fa-instagram" style="color: #ededee;"></i>
+                    <i class="fa-brands fa-x-twitter" style="color: #fafafa;"></i>
+                    <i class="fa-brands fa-linkedin" style="color: #f5f7f9;"></i>
+                </div>
+
+            </div>
+            <div class="copy">
+                <i class="fa-regular fa-copyright" style="color: #ffffff;"></i>
+            <h6>Copyright 2024 Huddle.All right reserved.</h6> 
+    </footer>
+       
+</body>
+</html>
